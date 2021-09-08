@@ -5,8 +5,8 @@ import {Producto} from './producto.model';
   {
     settings: {
       foreignKeys: {
-        fk_cat_prod_id_producto: {
-          name: 'fk_cat_prod_id_producto',
+        fk_producto_id_producto: {
+          name: 'fk_producto_id_producto',
           entity: 'Producto',
           entityKey: 'id',
           foreignKey: 'id_producto'
